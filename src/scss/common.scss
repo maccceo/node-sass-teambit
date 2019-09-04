@@ -1,6 +1,9 @@
 $h1-size: 40px;
+$h3-size: 26px;
 $text-color: #59402D;
+$yellow-bg: #FFE7D3;
 $blue-button: #2F468E;
+$default-padding-container: 90px 10%;
 
 @mixin main-padding {
 	padding: 0 10%;
@@ -13,15 +16,28 @@ $blue-button: #2F468E;
 	color: $blue-button;
 }
 
+@mixin yellow-bg {
+	background-color: $yellow-bg;
+	padding: $default-padding-container;
+}
+
 
 body {
 	color: $text-color;
 	text-align: center;
 }
 
+h1 {
+	font-size: $h1-size;
+}
+
+h3 {
+	font-size: $h3-size;
+}
+
 .white-section {
 	text-align: center;
-	margin: 80px 0;
+	padding: $default-padding-container;
 	width: 100%;
 }
 
