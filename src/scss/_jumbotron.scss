@@ -1,0 +1,8 @@
+#jumbo {
+  @include main-padding;
+  #jumbo__text {
+    h1 {
+      font-size: $h1-size;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+$h1-size: 40px;
+$text-color: #59402D;
+$blue-button: #2F468E;
+
+@mixin main-padding {
+	padding: 0 10%;
+}
+
+@mixin social-button {
+	border: 2px solid $blue-button;
+	border-radius: 6px;
+	padding: 7px 10px;
+	color: $blue-button;
+}
+
+
+body {
+	color: $text-color;
+	text-align: center;
+}
+
+.white-section {
+	text-align: center;
+	margin: 80px 0;
+	width: 100%;
+}
+
+.white-section-p {
+	font-size: 20px;
+	margin: 30px 0;
+}
+
+.white-section__img {
+  img {
+    text-align: center;
+    height: 500px;
+    margin-top: 30px;
+  }
+}
+
+.signup-button {
+	.signup-button__social {
+		@include social-button;
+		background-color: $blue-button;
+		color: white;
+		padding: 7px 20px;
+		margin: 0 15px;
+	}
+	.signup-button__mail {
+		font-size: 14px;
+		margin-top: 20px;
+	}
+	span {
+		color: darkgrey;
+	}
+}
+

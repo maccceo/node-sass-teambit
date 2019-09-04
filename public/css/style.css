@@ -16,6 +16,48 @@
   overflow: auto;
 }
 
+body {
+  color: #59402D;
+  text-align: center;
+}
+
+.white-section {
+  text-align: center;
+  margin: 80px 0;
+  width: 100%;
+}
+
+.white-section-p {
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+.white-section__img img {
+  text-align: center;
+  height: 500px;
+  margin-top: 30px;
+}
+
+.signup-button .signup-button__social {
+  border: 2px solid #2F468E;
+  border-radius: 6px;
+  padding: 7px 10px;
+  color: #2F468E;
+  background-color: #2F468E;
+  color: white;
+  padding: 7px 20px;
+  margin: 0 15px;
+}
+
+.signup-button .signup-button__mail {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.signup-button span {
+  color: darkgrey;
+}
+
 nav {
   max-width: 1400px;
   margin: 0 auto;
@@ -41,8 +83,16 @@ nav {
 
 #nav__right #nav__right--signup {
   border: 2px solid #2F468E;
-  border-radius: 4px;
+  border-radius: 6px;
   padding: 7px 10px;
   color: #2F468E;
+}
+
+#jumbo {
+  padding: 0 10%;
+}
+
+#jumbo #jumbo__text h1 {
+  font-size: 40px;
 }
 

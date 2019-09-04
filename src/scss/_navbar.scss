@@ -1,5 +1,4 @@
 $nav__right-textsize: 13px;
-$nav__right-textblue: #2F468E;
 
 
 nav {
@@ -25,10 +24,7 @@ nav {
 	}
 
 	#nav__right--signup {
-		border: 2px solid $nav__right-textblue;
-		border-radius: 4px;
-		padding: 7px 10px;
-		color: $nav__right-textblue;
+		@include social-button;
 	}
 
 }
