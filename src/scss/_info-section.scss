@@ -1,0 +1,45 @@
+// <section id="info-section">
+//         <div class="info-section__element">
+//           <div class="info-section__img">
+//             <img src="resources/employee-feedback.jpg" >
+//           </div>
+//           <div class="info-section__text">
+//             <h3>Feedback to help teammates improve</h3>
+//             <p>Empower your teammates to know</p>
+//             <span>Learn more</span>
+//             <img src="resources/communication.jpg" >
+//           </div>
+//         </div>
+
+#info-section {
+}
+
+.info-section__element {
+  padding: $default-v-padding-container;
+  span {
+    display: block;
+    color: $blue-button;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+.info-section__img {
+  max-height: 500px;
+  img {
+    width: 90%;
+  }
+}
+
+.info-section__text {
+  padding: 40px 0;
+  h3 {
+    margin-top: 30px;
+  }
+  p {
+    margin: 20px;
+  }
+  img {
+    width: 30%;
+  }
+}
